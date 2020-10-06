@@ -3,6 +3,7 @@ using System.Runtime.Serialization;
 
 namespace odata_route_constraint_issue
 {
+    [DataContract]
     public enum Status { 
         [EnumMember(Value = "Sold out")]
         SoldOut
